@@ -2,11 +2,11 @@
 
 Для запуска тестов необходимо предварительно установить следующие библиотеки (pip install):
 
-pytest
-pytest-selenium
-selenium
-termcolor
-allure-python-commons
+pytest;
+pytest-selenium;
+selenium;
+termcolor;
+allure-python-commons;
 
 Необходимо указать свой путь для драйвера, в моем случае он лежит в папке C:\ChromeDriveSelenium\chromedriver.exe
 
