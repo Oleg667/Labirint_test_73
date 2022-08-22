@@ -33,6 +33,7 @@ test_cart_page.py - Тестируем корзину с книгами. 3 те�
 
 
 ПАПКА Test_par
+
 test_parametr_home_page.py - параметризованный обход кнопок в шапке главной страницы сайта. 18 тестов
 Для запуска теста вводим команду:           pytest -v --driver Chrome --driver-path C:\ChromeDriveSelenium\chromedriver.exe tests\ttest_parametr_home_page.py
 
