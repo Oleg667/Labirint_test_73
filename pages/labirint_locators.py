@@ -24,31 +24,6 @@ class MainPage(WebPage):
     auth_error = WebElement(xpath='//a[contains(text(),"Введенного кода не существует")]')
     auth_error_2 = WebElement(xpath='//span[contains(text(),"Нельзя использовать символ «{N}»")]')
 
-    """Шапка главной страницы"""
-
-    logo = WebElement(xpath='//*[@class="b-header-b-logo-e-logo-wrap"]')
-    now_sale = WebElement(xpath='//*[@class ="itm-md-vis-hdn itm-lg-vis-shw"]')
-    mesages = WebElement(xpath='//*[@id="minwidth"]/div[5]/div[1]/div[1]/div[2]/div/ul/li[3]/a/span[1]/span')
-    log_in = WebElement(xpath='//span[contains(text(),"Введите свой код скидки, телефон или эл.почту")]')
-    my_labirint = WebElement(xpath='//*[@id="minwidth"]/div[5]/div/div[1]/div[2]/div/ul/li[4]/a/span[2]')
-    deferred = WebElement(xpath='//*[@class="b-header-b-personal-e-link top-link-main top-link-main_putorder"]')
-    cart = WebElement(xpath='//*[@class="b-header-b-personal-e-list-item have-dropdown  last-child"]')
-    plus_18 = WebElement(xpath='//*[@class="b-header-e-icon-adult b-header-e-icon-adult-m-big '
-                               'b-header-e-sprite-background"]')
-    header_books = WebElement(xpath='//span[@class="b-header-b-menu-e-link top-link-menu first-child"]')
-    header_main_2022 = WebElement(xpath='//*[@id="minwidth"]/div[5]/div/div[1]/div[4]/div/div[1]/ul/li[2]/span/a')
-    header_school = WebElement(xpath='//*[@id="minwidth"]/div[5]/div/div[1]/div[4]/div/div[1]/ul/li[3]/span/a')
-    header_toys = WebElement(xpath='//*[@id="minwidth"]/div[5]/div/div[1]/div[4]/div/div[1]/ul/li[4]/span/a')
-    header_office = WebElement(xpath='//*[@id="minwidth"]/div[5]/div/div[1]/div[4]/div/div[1]/ul/li[5]/span/a')
-    header_club = WebElement(xpath='//*[@id="minwidth"]/div[5]/div/div[1]/div[4]/div/div[1]/ul/li[11]/span/a')
-    delivery_and_payment = WebElement(xpath='//*[@id="minwidth"]/div[5]/div[1]/div[2]/div/ul/li[1]/a')
-    certificates = WebElement(xpath='//*[@id="minwidth"]/div[5]/div[1]/div[2]/div/ul/li[2]/a')
-    rating = WebElement(xpath='//a[@href="/rating/?id_genre=-1&nrd=1"]')
-    new_books = WebElement(xpath='//*[@id="minwidth"]/div[5]/div[1]/div[2]/div/ul/li[4]/a')
-    discount = WebElement(xpath='//a[@href="/sale/"]')
-    contacts = WebElement(xpath='//*[@data-event-content="Контакты"]')
-    support = WebElement(xpath='//*[@id="minwidth"]/div[5]/div[1]/div[2]/div/ul/li[10]/a')
-    maps = WebElement(xpath='//*[@id="minwidth"]/div[5]/div[1]/div[2]/div/ul/li[11]/a')
 
     """Результаты поиска"""
 
